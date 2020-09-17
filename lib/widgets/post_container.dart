@@ -162,6 +162,24 @@ class _PostStats extends StatelessWidget {
               label: 'Like',
               onTap: () => print("liked"),
             ),
+            _PostButton(
+              icon: Icon(
+                MdiIcons.comment,
+                color: Colors.grey[600],
+                size: 20.0,
+              ),
+              label: 'Comment',
+              onTap: () => print("comment"),
+            ),
+            _PostButton(
+              icon: Icon(
+                MdiIcons.share,
+                color: Colors.grey[600],
+                size: 25.0,
+              ),
+              label: 'Share',
+              onTap: () => print("share"),
+            ),
           ],
         ),
       ],
@@ -183,6 +201,27 @@ class _PostButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Expanded(
+      child: Material(
+        color: Colors.white,
+        child: InkWell(
+          onTap: onTap,
+          child: Container(
+            padding: const EdgeInsets.symmetric(horizontal: 12.0),
+            height: 25.0,
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                icon,
+                const SizedBox(
+                  width: 4.0,
+                ),
+                Text(label),
+              ],
+            ),
+          ),
+        ),
+      ),
+    );
   }
 }
