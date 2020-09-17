@@ -1,9 +1,9 @@
 import 'package:flutter_facebook_responsive_ui/models/models.dart';
 
 final User currentUser = User(
-  name: 'Marcus Ng',
+  name: 'Janek Fac',
   imageUrl:
-      'https://images.unsplash.com/photo-1578133671540-edad0b3d689e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80',
+      'https://cdn2.pixstash.net/2020/09/17/A8D5M.jpg',
 );
 
 final List<User> onlineUsers = [
@@ -18,9 +18,9 @@ final List<User> onlineUsers = [
         'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80',
   ),
   User(
-    name: 'Matthew Hinkle',
+    name: 'Kacper Kowalczyk',
     imageUrl:
-        'https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1331&q=80',
+        'https://scontent.fwaw3-1.fna.fbcdn.net/v/t1.0-9/48419370_413822692492801_229842808318459904_n.jpg?_nc_cat=106&_nc_sid=09cbfe&_nc_ohc=nckS7QrYf6YAX8F_YKh&_nc_ht=scontent.fwaw3-1.fna&oh=6e1cf98288abeb2015136b22596dcf03&oe=5F89AC94',
   ),
   User(
     name: 'Amy Smith',
@@ -28,19 +28,19 @@ final List<User> onlineUsers = [
         'https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80',
   ),
   User(
-    name: 'Ed Morris',
+    name: 'Patrycja Małyska',
     imageUrl:
-        'https://images.unsplash.com/photo-1521119989659-a83eee488004?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=664&q=80',
+    'https://pbs.twimg.com/media/BtFUrp6CEAEmsml.jpg',
   ),
   User(
-    name: 'Carolyn Duncan',
+    name: 'Kacper Kowalczyk',
     imageUrl:
-        'https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80',
+        'https://scontent.fwaw3-1.fna.fbcdn.net/v/t1.0-9/48419370_413822692492801_229842808318459904_n.jpg?_nc_cat=106&_nc_sid=09cbfe&_nc_ohc=nckS7QrYf6YAX8F_YKh&_nc_ht=scontent.fwaw3-1.fna&oh=6e1cf98288abeb2015136b22596dcf03&oe=5F89AC94',
   ),
   User(
-    name: 'Paul Pinnock',
+    name: 'Patryk Małyska',
     imageUrl:
-        'https://images.unsplash.com/photo-1519631128182-433895475ffe?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
+        'https://st.depositphotos.com/2218212/2938/i/950/depositphotos_29387653-stock-photo-facebook-profile.jpg',
   ),
   User(
       name: 'Elizabeth Wong',
@@ -77,9 +77,9 @@ final List<User> onlineUsers = [
         'https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80',
   ),
   User(
-    name: 'Ed Morris',
+    name: 'Patrycja Małyska',
     imageUrl:
-        'https://images.unsplash.com/photo-1521119989659-a83eee488004?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=664&q=80',
+        'https://pbs.twimg.com/media/BtFUrp6CEAEmsml.jpg',
   ),
   User(
     name: 'Carolyn Duncan',
@@ -111,12 +111,12 @@ final List<Story> stories = [
   Story(
     user: onlineUsers[2],
     imageUrl:
-        'https://images.unsplash.com/photo-1498307833015-e7b400441eb8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=80',
+        'https://ocdn.eu/images/pulscms/Mzk7MDA_/dbe1ef7c457bf363ee798701528a52a8.jpg',
   ),
   Story(
     user: onlineUsers[6],
     imageUrl:
-        'https://images.unsplash.com/photo-1499363536502-87642509e31b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80',
+        'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.maxy.pl%2Fpol_pl_Kurczak-gumowy-dla-psa-12460_2.jpg&f=1&nofb=1',
     isViewed: true,
   ),
   Story(
@@ -167,21 +167,21 @@ final List<Story> stories = [
 final List<Post> posts = [
   Post(
     user: currentUser,
-    caption: 'Check out these cool puppers',
+    caption: 'Check out this cool penis',
     timeAgo: '58m',
-    imageUrl: 'https://images.unsplash.com/photo-1525253086316-d0c936c814f8',
-    likes: 1202,
-    comments: 184,
-    shares: 96,
+    imageUrl: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FKuBepSi_ccc%2Fhqdefault.jpg&f=1&nofb=1',
+    likes: 23,
+    comments: 18,
+    shares: 40,
   ),
   Post(
     user: onlineUsers[5],
     caption:
-        'Please enjoy this placeholder text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+        'john fuck john fuck john fuck',
     timeAgo: '3hr',
     imageUrl: null,
-    likes: 683,
-    comments: 79,
+    likes: 6,
+    comments: 7,
     shares: 18,
   ),
   Post(
